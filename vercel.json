@@ -5,7 +5,7 @@
     "destination": "/Restaurant_management_system/templates/index.html"}
 ,
     { "source": "/shop",
-     "destination": "/shop/templates/shop.html"
+     "destination": "/shop/templates/shop/about.html"
     }
   ]
 }
