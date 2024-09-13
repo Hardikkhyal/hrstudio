@@ -1,7 +1,11 @@
 {
   "rewrites": [
-  {"source": "/(.*)",
+  {
+    "source": "/(.*)",
     "destination": "/Restaurant_management_system/templates/index.html"}
- {   "destination":  "shop/templates/shop"}
+,
+    { "source": "/shop",
+     "destination": "/shop/templates/shop.html"
+    }
   ]
 }
