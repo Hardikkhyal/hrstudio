@@ -4,7 +4,7 @@
     "source": "/(.*)",
     "destination": "/Restaurant_management_system/templates/index.html"}
 ,
-    { "source": "/shop",
+    { "source": "/(.*)",
      "destination": "/shop/templates/shop/about.html"
     }
   ]
