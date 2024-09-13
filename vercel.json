@@ -2,7 +2,7 @@
   "rewrites": [
   {
     "source": "/(.*)",
-    "destination": "/Restaurant_management_system/templates/admin/base_site.html"}
+    "destination": "shop/templates/shop"}
 ,
     { "source": "/(.*)",
      "destination": "/shop/templates/shop/about.html"
