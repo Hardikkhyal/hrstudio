@@ -1,5 +1,5 @@
 {
   "rewrites": [
-  {"source": "/(.*)", "destination": "/index.html"}
+  {"source": "/(.*)", "destination": "/Restaurant_management_system/templates/index.html"}
   ]
 }
