@@ -4,8 +4,8 @@
     "source": "/(.*)",
     "destination": "Restaurant_management_system/templates/index.html"}
 ,
-    { "source": "/(.*)",
-     "destination": "/shop/templates/shop/about.html"
+    { "source": "/shop/template/shop",
+     "destination":basic.html"
     }
   ]
 }
