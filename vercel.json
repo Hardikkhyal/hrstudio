@@ -1,8 +1,16 @@
 {
-  "rewrites": [
-  {
-    "source": "/(.*)",
-    "destination": "Restaurant_management_system/templates/index.html"}
-,
-    ]
+  "version": 2,
+  "builds": [
+    {
+      "src": "restaurant/template/index.html",
+      "use": "@vercel/static"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/restaurant/template/index.html"
+    }
+  ]
+}
 
