@@ -4,31 +4,5 @@
     "source": "/(.*)",
     "destination": "Restaurant_management_system/templates/index.html"}
 ,
-    { "source": "/shop",
-     "destination":shop/templates/shop/basic.html"
-    }
-      ,
-    { "source": "/shop",
-     "destination":shop/templates/shop/about.html"
-    }
-      ,
-    { "source": "/shop",
-     "destination":shop/templates/shop/checkout.html"
-    }
-      ,
-    { "source": "/shop",
-     "destination":shop/templates/shop/index.html"
-    
-    }
-    
-      ,
-    { "source": "/shop",
-     "destination":shop/templates/shop/index1.html"
-    }
-    
-      ,
-    { "source": "/shop",
-     "destination":shop/templates/shop/search.html"
-    }
-  ]
-}
+    ]
+
