@@ -2,7 +2,7 @@
   "version": 2,
   "builds": [
     {
-      "src": "restaurant/template/index.html",
+      "src": "restaurant/template/**/*",
       "use": "@vercel/static"
     }
   ],
@@ -13,4 +13,3 @@
     }
   ]
 }
-
